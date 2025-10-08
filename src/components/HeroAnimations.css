@@ -1,0 +1,118 @@
+/* Floating circles */
+@keyframes float1 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px);
+  }
+}
+@keyframes float2 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(-15px);
+  }
+}
+@keyframes float3 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-25px) translateX(5px);
+  }
+}
+@keyframes float4 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-10px) translateX(-10px);
+  }
+}
+@keyframes float5 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-20px) translateX(-5px);
+  }
+}
+@keyframes float6 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(10px);
+  }
+}
+@keyframes float7 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-18px) translateX(-8px);
+  }
+}
+
+/* Circle classes */
+.float1 {
+  animation: float1 6s ease-in-out infinite;
+}
+.float2 {
+  animation: float2 7s ease-in-out infinite;
+}
+.float3 {
+  animation: float3 8s ease-in-out infinite;
+}
+.float4 {
+  animation: float4 6.5s ease-in-out infinite;
+}
+.float5 {
+  animation: float5 7.5s ease-in-out infinite;
+}
+.float6 {
+  animation: float6 8.5s ease-in-out infinite;
+}
+.float7 {
+  animation: float7 7s ease-in-out infinite;
+}
+
+/* Wave animation for SVG shape behind text */
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.wave {
+  animation: wave 8s ease-in-out infinite;
+}
+/* Wave animation */
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.wave {
+  animation: wave 10s ease-in-out infinite;
+}
