@@ -5,6 +5,7 @@ import HeroSection from "../components/HeroSection";
 import PortfolioSection from "../components/ProjectSection";
 import ServiceSection from "../components/ServiceSection";
 import TestimonialSection from "../components/TestimonailSection";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <PortfolioSection />
       <TestimonialSection />
       <ContactPage />
+      <Footer />
     </>
   );
 }
