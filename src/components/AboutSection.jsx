@@ -10,9 +10,10 @@ const AboutSection = () => {
             About Us
           </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-8">
-            At Cr8iveMinds, we craft digital solutions that empower remote-first
-            businesses to scale efficiently. We blend creativity, technology,
-            and strategy to build websites and tools that truly convert.
+            At Cr8iveMinds, we build digital experiences that empower
+            remote-first startups to grow smarter and faster. By merging
+            creativity, strategy, and technology, we craft sleek websites and
+            scalable tools that turn bold ideas into real-world impact.
           </p>
           <Link
             to="/about"

@@ -51,11 +51,12 @@ const About = () => {
             Our Story
           </h2>
           <p className="text-lg leading-relaxed">
-            Creative Minds was born out of the idea that great design and
-            technology can connect people and businesses worldwide. We started
-            as a small team of dreamers, designers, and developers — and today,
-            we proudly work with clients across the globe, delivering projects
-            that inspire and innovate.
+            Every big idea starts small — and so did Cr8iveMinds. What began as
+            a shared dream between a few creators soon became a mission: to
+            blend design and technology in ways that connect, inspire, and move
+            people. Today, we’re proud to partner with brands around the world —
+            building digital stories that don’t just look good, but mean
+            something.
           </p>
         </motion.div>
       </section>
@@ -74,8 +75,10 @@ const About = () => {
               Our Mission
             </h3>
             <p className="text-lg">
-              To empower brands and startups by building creative, scalable, and
-              visually stunning digital solutions that leave a lasting impact.
+              Our mission is to empower startups and brands to grow smarter and
+              bolder. By blending creativity, strategy, and technology, we craft
+              digital experiences that don’t just look stunning — they leave a
+              lasting impact.
             </p>
           </motion.div>
           <motion.div
@@ -86,8 +89,9 @@ const About = () => {
               Our Vision
             </h3>
             <p className="text-lg">
-              To become a globally trusted creative agency known for innovation,
-              authenticity, and making the digital world more beautiful.
+              Our vision is to become a globally trusted creative agency —
+              celebrated for bold innovation, authentic partnerships, and
+              crafting digital experiences that make the world more beautiful.
             </p>
           </motion.div>
         </div>

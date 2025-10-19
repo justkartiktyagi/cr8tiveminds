@@ -1,34 +1,16 @@
+// src/components/PortfolioSection.jsx
+
+import React from "react";
 import { motion } from "framer-motion";
 
 const projects = [
   {
     title: "Modern Website Design",
-    description: "Responsive and high-performing website.",
-    client: "Acme Corp",
-    image: "https://picsum.photos/400/300?random=1",
-    link: "/projects/modern-website-design",
-  },
-  {
-    title: "Brand Identity",
-    description: "Complete branding solution including logo and typography.",
-    client: "Beta Solutions",
-    image: "https://picsum.photos/400/300?random=2",
-    link: "/projects/brand-identity",
-  },
-  {
-    title: "Mobile App UI/UX",
-    description: "Intuitive interface and smooth user experience for app.",
-    client: "Gamma Tech",
-    image: "https://picsum.photos/400/300?random=3",
-    link: "/projects/mobile-app-uiux",
-  },
-  {
-    title: "Digital Marketing Campaign",
     description:
-      "Increased engagement and conversions for an e-commerce brand.",
-    client: "Delta Co",
-    image: "https://picsum.photos/400/300?random=4",
-    link: "/projects/digital-marketing-campaign",
+      "Responsive and high-performing website for a premium accessories brand.",
+    client: "Opulent & Co",
+    image: "/projects/opu.png",
+    link: "/projects/modern-website-design",
   },
 ];
 

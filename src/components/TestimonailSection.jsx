@@ -1,31 +1,17 @@
 import { motion } from "framer-motion";
 const testimonials = [
   {
-    name: "Alice Johnson",
-    company: "Acme Corp",
+    name: "Kartik Tyagi",
+    company: "Opulent & Co",
     feedback:
-      "CreativeMinds transformed our website. We saw a 50% increase in leads!",
-    avatar: "https://randomuser.me/api/portraits/women/1.jpg",
+      "Cr8tive Minds transformed our online presence with a stunning website design!",
+    avatar: "/testimonials/kartik.jpg",
   },
   {
     name: "Bob Smith",
     company: "Beta Solutions",
     feedback: "Excellent design and seamless communication. Highly recommend!",
     avatar: "https://randomuser.me/api/portraits/men/2.jpg",
-  },
-  {
-    name: "Carla Gomez",
-    company: "Gamma Tech",
-    feedback:
-      "They understood our brand perfectly and delivered beyond expectations.",
-    avatar: "https://randomuser.me/api/portraits/women/3.jpg",
-  },
-  {
-    name: "David Lee",
-    company: "Delta Co",
-    feedback:
-      "Professional team, very responsive and creative. Loved working with them!",
-    avatar: "https://randomuser.me/api/portraits/men/4.jpg",
   },
 ];
 
