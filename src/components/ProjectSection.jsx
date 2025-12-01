@@ -12,6 +12,14 @@ const projects = [
     image: "/projects/opu.png",
     link: "/projects/modern-website-design",
   },
+  {
+    title: "Modern Website Design",
+    description:
+      "Responsive and high-performing website for a Test Scan Booking Platform.",
+    client: "Scanyfi",
+    image: "/projects/scanyfi.jpeg",
+    link: "https://scanyfi-teal.vercel.app/",
+  },
 ];
 
 export default function PortfolioSection() {
